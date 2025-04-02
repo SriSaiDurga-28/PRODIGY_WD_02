@@ -1,0 +1,48 @@
+body {
+    font-family:algerian;
+    text-align: center;
+    color:blue;
+    background-color: #2aef10;
+    margin: 0;
+    padding: 150px;
+  }
+  
+  .stopwatch {
+    background-color: #dd03b8; /* Adds a vibrant background color */
+    padding: 60px; /* Increased padding */
+    width: 500px;  /* Explicit width to enlarge the background */
+    height: 300px; /* Explicit height for increased size */
+    border-radius: 10px; /* Adds rounded corners */
+    display: inline-block;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border: 10px solid #ffbf00; /* Adds a thick solid border in gold */
+  border-style: dashed; /* Customizes the border to be dashed */
+  }
+  #display {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: blue;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #laps li {
+    background: #d9f007;
+    padding: 5px;
+    margin: 5px 0;
+
+  } 
